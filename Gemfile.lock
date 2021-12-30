@@ -169,6 +169,7 @@ GEM
     rails-html-sanitizer (1.4.2)
       loofah (~> 2.3)
     rake (13.0.6)
+    redis (4.5.1)
     regexp_parser (2.2.0)
     reline (0.3.0)
       io-console (~> 0.5)
@@ -227,6 +228,7 @@ DEPENDENCIES
   pg (~> 1.1)
   puma (~> 5.0)
   rails!
+  redis
   selenium-webdriver
   sprockets-rails
   stimulus-rails
